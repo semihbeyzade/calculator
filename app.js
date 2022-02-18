@@ -9,16 +9,20 @@ const del = () => {
 
 const display = (num) => {
     screen.value += num;
+		
 }
 
 const equal = () => {
     	
 			try{
-				screen.value = eval(screen.value).toFixed(4);
+				screen.value = eval(screen.value).toFixed(2);
 			}
 			catch{
 				
 				alert("Invalid Operation");
 
 			}
+			
 }
+
+
