@@ -14,7 +14,7 @@ const display = (num) => {
 const equal = () => {
     	
 			try{
-				screen.value = eval(screen.value);
+				screen.value = eval(screen.value).toFixed(4);
 			}
 			catch{
 				
