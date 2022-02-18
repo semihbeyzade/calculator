@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #FFEDDB;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.rechner {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #BF9270;
+   -webkit-box-shadow: -2px 1px 15px 3px rgba(191,146,112,0.98); 
+    box-shadow: -2px 1px 15px 3px rgba(191,146,112,0.98);;
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
+    color: #362706;
+    border-radius: 50%;
+    background: #EDCDBB;
+    box-shadow: inset 5px 5px 10px #bba294,
+        inset -5px -5px 10px #fff8e2;
+}
+
+.bildschirm {
+    height: 5rem;
+    background-color: #EDCDBB;
+    border: none; 
+    font-size: 2.5rem;
+    text-align: end;  
+}
+
+::placeholder {
+    text-align: right;
+    font-size: 3rem;
+}
+
+.item{
+    padding-left: 5%;
+}
+.item1 {
+    margin-top: 1rem;
+}
+.item5{
+    margin-bottom: 1rem;
+}
