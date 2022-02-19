@@ -1,2 +1,2 @@
 ## calculator
-.[Link von meiner Seite]( https://semihbeyzade.github.io/Virtual-Fashion-Company/)
+.[Link von meiner Seite]( https://semihbeyzade.github.io/calculator/)
